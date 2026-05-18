@@ -120,3 +120,14 @@ fig_rating = px.bar(
 
 st.plotly_chart(fig_rating)
 
+st.markdown("""
+### Legenda das Classificações
+
+- TV-MA → Conteúdo para maiores de 17 anos
+- TV-14 → Conteúdo para maiores de 14 anos
+- TV-PG → Orientação dos pais recomendada
+- R → Restrito para menores
+- PG-13 → Maiores de 13 anos
+- PG → Supervisão dos pais sugerida
+- G → Livre para todos os públicos
+""")
